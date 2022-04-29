@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="form.css">
+
+        <title>Responsive menu ui - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== NAV ===============-->
+        <nav class="nav" id="nav">
+            <div class="nav__menu container" id="nav-menu">
+                <div class="nav__shape"></div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+                
+                <div class="nav__data">
+                    <div class="nav__mask">
+                        <!-- Change your profile picture -->
+                        <img src="assets/img/perfil.png" alt="" class="nav__img">
+                    </div>
+
+                    <span class="nav__greeting">Hi, I'm</span>
+                    <h1 class="nav__name">Bales</h1>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home' ></i> Home 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index copy.html" class="nav__link">
+                            <i class='bx bx-user'></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-bookmark'></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--=============== MAIN ===============-->
+        <main class="main" id="main">
+            
+            <!--=============== HEADER ===============-->
+            <header class="header" id="header">
+                <nav class="header__nav container">
+                    <a href="#" class="header__logo">
+                        Bales
+                    </a>
+
+                    <!-- Toggle button -->
+                    <div class="header__toggle" id="header-toggle">
+                        <i class='bx bx-grid-alt'></i>
+                    </div>
+                </nav>
+            </header>
+        
+       
+
+            <!-- When inserting your content into sections, remove the section__height class -->
+            <!--=============== HOME ===============-->
+            <section class="section section__height container" id="home">
+                <p class="sides">
+                    Image Upload Form
+                </p>
+                
+            <div class="formcontents">
+                <div class="mycontainer">
+                    <div class="widdt">
+     
+                    
+                        <div class="img-area" data-img="">
+                            <i class='bx bxs-cloud-upload icon'></i>
+                            <h3>Upload Image</h3>
+                            <p>Image size must be less than <span>2MB</span></p>
+                        </div>
+                        <button class="select-image">Select Image</button>
+                        <form action="" method="get">
+    
+                        <input type="file" id="file" accept="image/*" name="vee" hidden>
+                    </div>
+                    
+                <form action="" method="get">
+                    <div class="contact-us">
+                        <div class="title">
+                          <h5>Image Description</h5>
+                        </div>
+                        <div class="formbox">
+                            <div class="cols">
+                                <div class="form-items">
+                                    <input type="text" class="input" placeholder="Image Title" name="ccc">
+                                    <i class="fas fa-user"></i>
+                                  </div>
+                                  <div class="form-items">
+                                      <select name="aaa" id="">
+                                          <option value="">CAT1</option>
+                                          <option value="">CAT1</option>
+                                      </select>
+                                  </div>
+                            </div>
+        
+        
+                            <div class="cols">
+                                <div class="form-items">
+                                    <input type="text" class="input" placeholder="Username">
+                                    <i class="fas fa-user"></i>
+                                  </div>
+                                  <div class="form-items">
+                                    <input type="text" class="input" placeholder="Email">
+                                    <i class="fas fa-envelope"></i>
+                                  </div>
+                            </div>
+        
+        
+                          <div class="form-items">
+                            <textarea class="input message" cols="5" rows="5" placeholder="Message....."></textarea>
+                          </div>
+                        </div>
+                        
+                        <div class="btn">
+                            <input type="submit" value="Submit">
+                        </div>
+                        
+                        
+                   
+                        
+                      </div>
+                </div>
+            
+        
+            
+            </div>
+        </form>
+            </section>
+
+
+
+
+            <!--=============== ABOUT ===============-->
+
+
+            <!--=============== PORTFOLIO ===============-->
+
+
+            <!--=============== SKILLS ===============-->
+
+
+            <!--=============== CONTACT ===============-->
+
+        </main>
+        <div class="full-screen hidden flex-container-center">
+            <div class="senter">
+          
+              <div class="acceptance_container">
+                  <div class="acceptance_flex">
+                      <div class="text_sect">
+                          <div class="topside">
+                              Hi Victor 👋
+                          </div>
+                          <div class="bottomside">
+                           <span>
+                              Thanks for contributing to Unsplash! You’re awesome. To save you time and increase your chance of being featured, please ensure that your photos meet our submission guidelines.
+                           </span>  
+          
+                          </div>
+                      </div>
+                      <div class="image_sect">
+          <img src="https://images.unsplash.com/photo-1490638114763-02630949efda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                      </div>
+                  </div>
+                  <div class="gridsect">
+                      <div class="onee">
+                       <div class="icon">
+                          <ion-icon name="images-outline"></ion-icon>
+                       </div> 
+                       <div class="text">
+                          Only upload high quality photos. For a standard landscape orientation photo, 5 megapixels is at least 2500 by 2000 pixels pixels in size.
+                       </div> 
+                      </div>
+                      <div class="onee">
+                          <div class="icon">
+                              <ion-icon name="shield-checkmark-outline"></ion-icon>
+                          </div> 
+                          <div class="text">
+                              Photos are clear, original and are not over edited. Photos do not contain nudity or violent imagery. Unsplash is a place for people of all ages. 
+                          </div>
+                        
+                      </div>
+                      <div class="onee">
+                          <div class="icon">
+                              <ion-icon name="aperture-outline"></ion-icon>
+                          </div> 
+                          <div class="text">
+                              You must own the rights to any photo you share on Unsplash. You can read more about this in our Terms. 
+                          </div>
+                    
+                      </div>
+                  </div>
+          
+                  <div class="agreement">
+                  <span>    <input type="checkbox" name="accept" id=""> I Agree</span>
+          
+                  <span> <button>Start Uploading</button> </span>
+                 
+                  <div class="floatrught" style="float: right;">
+                    <button onclick="closePopup()">Cancel</button>
+                  </div>
+          
+                  </div>
+              </div>
+          
+          
+          </div>
+        </div>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main (2).js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="popup.js"></script>
+        <script src="preview.js"></script>
+    </body>
+</html>
