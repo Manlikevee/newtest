@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="mystyle.css">
+
+        <title>Responsive menu ui - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== NAV ===============-->
+        <nav class="nav" id="nav">
+            <div class="nav__menu container" id="nav-menu">
+                <div class="nav__shape"></div>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+                
+                <div class="nav__data">
+                    <div class="nav__mask">
+                        <!-- Change your profile picture -->
+                        <img src="assets/img/perfil.png" alt="" class="nav__img">
+                    </div>
+
+                    <span class="nav__greeting">Hi, I'm</span>
+                    <h1 class="nav__name">Bales</h1>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home' ></i> Home 
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about"  class="nav__link" >
+                            <i class='bx bx-user'></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-bookmark'></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        
+        <!--=============== MAIN ===============-->
+        <main class="main" id="main">
+            <!--=============== HEADER ===============-->
+            <header class="header" id="header">
+                <nav class="header__nav container">
+                    <a href="#" class="header__logo">
+                        Bales
+                    </a>
+
+
+                    <div data-aos="fade-up" data-aos-offset="950" data-aos-delay="500" class="side2" style="    margin-left: auto;
+                    margin-right: 50px;">
+                        <div data-aos="fade-down" class="one"><i class="far fa-address-card"></i> Manlikevee</div>
+                        <div data-aos="fade-down"  class="one"> <a href="" class="boton">Hire</a></div>
+                        <div class="one" > <i class="ri-moon-line change-themes" id="theme-button"></i> </div>
+                        
+                    </div>
+    
+                    <!-- Toggle button -->
+                    <div class="header__toggle" id="header-toggle">
+                        <i class='bx bx-grid-alt'></i>
+                     
+                    </div>
+                   
+                </nav>
+            </header>
+
+ 
+
+
+            <!-- When inserting your content into sections, remove the section__height class -->
+            <!--=============== HOME ===============-->
+            <div class="backimage">
+              <div class="backcontent">
+
+             <div class="darkshadow">
+
+            
+              <div class="texttitle">
+                Victures
+              </div>
+
+              <div class="bodytitle">
+                The internet’s source of freely-usable images.
+                <p>
+                  Powered by creators everywhere
+                </p> 
+              </div>
+
+            </div>
+              <div class="inputbox">
+                <div class="containerd">
+                  <form method="get">
+                  <input type="search" placeholder="Search..." name="textsearch">
+                  <button type="submit">Search</button>
+                </form>
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+
+            
+            <div class="photooftheday">
+              photo of the day by veee
+            </div>
+
+            
+            <section>
+                <div class="lightBox">
+                  <div class="lightBox_content">
+                    <i class="fas fa-times close"></i>
+                    <div class="logo_icons">
+                      <a href="#">
+                        <img class="logoImg" src="images/logo.png" alt="">
+                        <div class="text_content">
+                          <span class="name">CodingLab</span>
+                          <span class="followers">50k followers</span>
+                        </div>
+                      </a>
+                      <div class="icons">
+                        <i class="fas fa-heart"></i>
+                        <i class="fas fa-arrow-down"></i>
+                      </div>
+                    </div>
+                    <div class="showImg">
+                      <div class="image">
+                        <img src="images/img1.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <!-- <div class="stickypart">
+                    <div data-aos="zoom-in-bottom" data-aos-delay="950" class="flex">
+                        <div data-aos="zoom-in" data-aos-delay="450" class="sideone">
+                            <div class="onee"><i class="far fa-image"></i> Photo</div>
+                            <div class="onee"><i class="fas fa-layer-group"></i> Collection</div>
+                    
+                        </div>
+                    <div data-aos="fade-up" data-aos-offset="350" data-aos-delay="500" class="side2">
+                        <div data-aos="fade-down" class="one"><i class="far fa-address-card"></i> Manlikevee</div>
+                        <div data-aos="fade-down"  class="one"> <a href="" class="boton">Hire</a></div>
+                
+                        
+                    </div>
+                     
+                    
+                    </div>
+                </div> -->
+
+                <div class="image-gallery">
+                 
+                  <div class="image-container">
+                    <div class="image-box">
+                      <div class="image-box">
+                        <img class="gImg" src="https://images.unsplash.com/photo-1647406812353-0ddf4bfdf2eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="logo_icons">
+                          <a href="#">
+                            <img class="logoImg" src="images/logo.png" alt="">
+                            <div class="text_content">
+                              <span class="name">vee tech</span>
+                              <span class="followers">10k followers</span>
+                            </div>
+                          </a>
+                          <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrow-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <img class="gImg" src="https://images.unsplash.com/photo-1646231813400-59e601251e6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1646231807775-5e6f466b3c97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/flagged/photo-1641381485921-87bc5dc6b077?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1638324161827-44e5f92cfd67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1635482737015-4d461b67fea7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1632720649063-464e9d462c0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650240852447-46505dba4726?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650265424401-9d34eecae180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650272214249-be5e5b1fe80c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650265929273-00c7ac3cb0e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650266274047-197ed34a5dce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650278059489-9f275c56ee8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650274682651-a83d92989255?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650219548948-ffbb1709c14e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650262815253-4eaa7e5d0a63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                      <img class="gImg" src="https://images.unsplash.com/photo-1650179745441-bc5f328d0d09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                      <div class="logo_icons">
+                        <a href="#">
+                          <img class="logoImg" src="images/logo.png" alt="">
+                          <div class="text_content">
+                            <span class="name">CodingLab</span>
+                            <span class="followers">50k followers</span>
+                          </div>
+                        </a>
+                        <div class="icons">
+                          <i class="fas fa-heart"></i>
+                          <i class="fas fa-arrow-down"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image-box">
+                        <img class="gImg" src="https://images.unsplash.com/photo-1649309468972-97f902372d29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8cm5TS0RId3dZVWt8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="logo_icons">
+                          <a href="#">
+                            <img class="logoImg" src="images/logo.png" alt="">
+                            <div class="text_content">
+                              <span class="name">CodingLab</span>
+                              <span class="followers">50k followers</span>
+                            </div>
+                          </a>
+                          <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrow-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="image-box">
+                        <img class="gImg" src="https://images.unsplash.com/photo-1647174447035-3039fffa92b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8cVBZc0R6dkpPWWN8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="logo_icons">
+                          <a href="#">
+                            <img class="logoImg" src="images/logo.png" alt="">
+                            <div class="text_content">
+                              <span class="name">CodingLab</span>
+                              <span class="followers">50k followers</span>
+                            </div>
+                          </a>
+                          <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrow-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="image-box">
+                        <img class="gImg" src="https://images.unsplash.com/photo-1649690002855-2a0724b9949f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDd8YWV1NnJMLWo2ZXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="logo_icons">
+                          <a href="#">
+                            <img class="logoImg" src="images/logo.png" alt="">
+                            <div class="text_content">
+                              <span class="name">CodingLab</span>
+                              <span class="followers">50k followers</span>
+                            </div>
+                          </a>
+                          <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrow-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="image-box">
+                        <img class="gImg" src="https://images.unsplash.com/photo-1650204154100-983cc99567cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                        <div class="logo_icons">
+                          <a href="#">
+                            <img class="logoImg" src="images/logo.png" alt="">
+                            <div class="text_content">
+                              <span class="name">CodingLab</span>
+                              <span class="followers">50k followers</span>
+                            </div>
+                          </a>
+                          <div class="icons">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-arrow-down"></i>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </section>
+
+        </main>
+
+                  
+        <div class="full-screen hidden flex-container-center">
+            <div class="senter">
+          
+              <div class="acceptance_container">
+                  <div class="acceptance_flex">
+                      <div class="text_sect">
+                          <div class="topside">
+                              Hi Victor 👋
+                          </div>
+                          <div class="bottomside">
+                           <span>
+                              Thanks for contributing to Unsplash! You’re awesome. To save you time and increase your chance of being featured, please ensure that your photos meet our submission guidelines.
+                           </span>  
+          
+                          </div>
+                      </div>
+                      <div class="image_sect">
+          <img src="https://images.unsplash.com/photo-1490638114763-02630949efda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+                      </div>
+                  </div>
+                  <div class="gridsect">
+                      <div class="onee">
+                       <div class="icon">
+                          <ion-icon name="images-outline"></ion-icon>
+                       </div> 
+                       <div class="text">
+                          Only upload high quality photos. For a standard landscape orientation photo, 5 megapixels is at least 2500 by 2000 pixels pixels in size.
+                       </div> 
+                      </div>
+                      <div class="onee">
+                          <div class="icon">
+                              <ion-icon name="shield-checkmark-outline"></ion-icon>
+                          </div> 
+                          <div class="text">
+                              Photos are clear, original and are not over edited. Photos do not contain nudity or violent imagery. Unsplash is a place for people of all ages. 
+                          </div>
+                        
+                      </div>
+                      <div class="onee">
+                          <div class="icon">
+                              <ion-icon name="aperture-outline"></ion-icon>
+                          </div> 
+                          <div class="text">
+                              You must own the rights to any photo you share on Unsplash. You can read more about this in our Terms. 
+                          </div>
+                    
+                      </div>
+                  </div>
+          
+                  <div class="agreement">
+                  <span>    <input type="checkbox" name="accept" id=""> I Agree</span>
+          
+                  <span> <button>Start Uploading</button> </span>
+                 
+                  <div class="floatrught" style="float: right;">
+                    <button onclick="closePopup()">Cancel</button>
+                  </div>
+          
+                  </div>
+              </div>
+          
+          
+          </div>
+        </div>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main (2).js"></script>
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="myjs.js"></script>
+        <script src="popup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+    </body>
+</html>
